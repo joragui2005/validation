@@ -1,0 +1,6 @@
+#!/bin/bash
+for e in  ${!TERM*} 
+do
+  echo "$e = \$$e"
+done
+
