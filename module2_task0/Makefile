@@ -1,6 +1,9 @@
 .PHONY: help
 help:
-	go build
+	echo "make run compila la aplicación"
+	echo "make run ejeucta la aplicación"
+	echo "make stop detiene la aplicación"
+	echo "make test ejecuta las pruebas de la aplicación"
 
 .PHONY: build
 build:
